@@ -1,3 +1,10 @@
+interface PrefixReport {
+    [key: string]: {
+        prefix: string
+        array: Array<string>
+    }
+}
+
 interface IPrefix {
     strs: Array<string>
     isPrefix(): boolean
