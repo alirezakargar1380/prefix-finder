@@ -1,0 +1,18 @@
+{
+  "name": "prefix",
+  "version": "1.0.0",
+  "description": "find the prefix of a array of strings",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "prefix",
+    "array",
+    "string"
+  ],
+  "author": "alireza_kargar <alirezakargarsuport@gmail.com>",
+  "license": "ISC"
+}
+
