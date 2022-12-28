@@ -2,11 +2,12 @@
   "name": "prefix",
   "version": "1.0.0",
   "description": "find the prefix of a array of strings",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node index.ts",
-    "build": "tsc index.ts"
+    "build": "tsc"
   },
   "homepage": "https://github.com/alirezakargar1380/prefix-finder.git",
   "repository": {
@@ -20,9 +21,9 @@
   "keywords": [
     "prefix",
     "array",
-    "string"
+    "string",
+    "js"
   ],
   "author": "alireza_kargar <alirezakargarsuport@gmail.com>",
   "license": "ISC"
 }
-
