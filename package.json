@@ -5,8 +5,18 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "build": "tsc index.ts"
   },
+  "homepage": "https://github.com/alirezakargar1380/prefix-finder.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alirezakargar1380/prefix-finder.git"
+  },
+  "files": [
+    "README.md",
+    "lib/**/*"
+  ],
   "keywords": [
     "prefix",
     "array",
